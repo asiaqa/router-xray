@@ -33,6 +33,6 @@ jobs:
         ldflags: "-s -w -buildid="
         executable_compression: "upx -v"
         overwrite: true
-        release_name: "test"
+        release_name: "xray"
         
         
