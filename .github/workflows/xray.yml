@@ -33,7 +33,7 @@ jobs:
         project_path: "./tmp/main"
         binary_name: "xray"
         ldflags: "-s -w -buildid="
-        executable_compression: "upx -v"
+        #  executable_compression: "upx -v"
         overwrite: true
         release_name: "xray"
         
