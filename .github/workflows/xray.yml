@@ -1,5 +1,6 @@
 # This workflow will build a golang project
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
+# optional: executable_compression: "upx -v"
 
 name: clone-xray
 
@@ -34,8 +35,6 @@ jobs:
         binary_name: "xray"
         ldflags: "-s -w -buildid="
         overwrite: true
-        release_name: "xray"
-        # executable_compression: "upx -v"
-
-        
-        
+        release_name: "xray" 
+      
+       
