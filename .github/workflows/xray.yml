@@ -33,5 +33,5 @@ jobs:
         overwrite: true
         release_name: "xray" 
         executable_compression: "upx -v"
-      
+        build_flags: "-trimpath"
        
