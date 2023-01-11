@@ -22,7 +22,7 @@ jobs:
       run: |
         rm -rf ./{,.[!.],..?}*
         #  git clone https://github.com/XTLS/Xray-core ./tmp
-        git clone -b fix  https://github.com/XTLS/Xray-core ./tmp
+        git clone -b fix  https://github.com/yuhan6665/Xray-core/ ./tmp
     - uses: wangyoucao577/go-release-action@v1.34
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
