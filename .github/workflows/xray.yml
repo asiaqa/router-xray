@@ -34,5 +34,7 @@ jobs:
         overwrite: true
         release_name: "xray" 
         executable_compression: "upx -v"
-        build_flags: "-trimpath CGO_ENABLED=0"
+        build_flags: "-trimpath"
+        pre_command: "env CGO_ENABLED=0"
+        
        
