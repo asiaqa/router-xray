@@ -33,7 +33,7 @@ jobs:
         ldflags: "-s -w -buildid="
         overwrite: true
         release_name: "xray" 
-        executable_compression: "upx -v"
+        executable_compression: "upx --ultra-brute"
         build_flags: "-trimpath"
         pre_command: "env CGO_ENABLED=0"
         
