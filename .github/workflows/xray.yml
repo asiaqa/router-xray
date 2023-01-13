@@ -35,6 +35,6 @@ jobs:
         release_name: "xray" 
         executable_compression: "upx --ultra-brute"
         build_flags: "-trimpath"
-        pre_command: "env CGO_ENABLED=0"
+        pre_command: "CGO_ENABLED=0"
         
        
