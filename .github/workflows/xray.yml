@@ -30,7 +30,7 @@ jobs:
         goarch: ${{ matrix.goarch }}
         goversion: "1.21.0"
         project_path: "./tmp/main"
-#        binary_name: "xray"
+        binary_name: "xray"
         ldflags: "-s -w -buildid="
         overwrite: true
         release_name: "xray" 
