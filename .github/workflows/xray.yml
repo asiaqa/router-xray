@@ -36,5 +36,6 @@ jobs:
         executable_compression: "upx --ultra-brute"
         build_flags: "-trimpath"
         pre_command: "CGO_ENABLED=0"
+        goversion: "latest"
         
        
